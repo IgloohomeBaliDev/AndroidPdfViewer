@@ -601,7 +601,7 @@ public class PDFView extends RelativeLayout {
 
         Drawable bg = getBackground();
         if (bg == null) {
-            canvas.drawColor(nightMode ? Color.BLACK : Color.WHITE);
+            canvas.drawColor(Color.GRAY);
         } else {
             bg.draw(canvas);
         }
